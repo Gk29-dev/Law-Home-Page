@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+body{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    outline:0;
+    height: 100vh;
+    background: #2b2922;
+    color:#fff;
+}
+.container{
+    position: relative;
+    height: 100vh;
+}
+.container .navbar{
+    margin:20px 120px;
+    font-family: 'Poppins';
+
+}
+.navbar .logo{
+    height: 30px;
+}
+.navbar .grow-list{
+    position: absolute;
+    top:0px;
+    left:35%;
+}
+.navbar .grow-list .list{
+   text-align: center;
+}
+.navbar .grow-list .list .list-item{
+    display: inline;
+    margin:0px 40px;
+    font-size: 14px;
+    color:#929088;
+    cursor: pointer;
+}
+.navbar .grow-list .list .list-item:hover{
+    color:#fff;
+}
+.navbar .button-small{
+    position: absolute;
+    top:0;
+    right:100px;
+    background-color: transparent;
+    padding:10px 30px;
+    border:1px solid #a08f36;
+    border-radius: 10px;
+    color:#fff;
+    font-size:14px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+.navbar .button-small:hover{
+    background-color: #a08f36;
+}
+
+/* text */
+section:nth-child(2){
+    margin:40px 120px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .hero-heading{
+    font-family: 'Montserrat';
+    font-size:40px;
+    text-transform: capitalize;
+    width: 31%;
+    line-height: 60px;
+}
+.hero .hero-description{
+    font-family: 'Montserrat';
+    position: relative;
+    right:200px;
+    width:25%;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 100 !important;
+}
+section:nth-child(3){
+    overflow: hidden;
+    height: 51vh;
+    width: 100%;
+}
+.banner{
+    overflow: hidden;
+    background-image: url('./assets/justice.jpg');
+    height: 353px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: right top;
+}
+.banner .button{
+    position:absolute;
+    bottom:20px;
+    right:0;
+    background-color: transparent;
+    display: flex;
+}
+.left-icon, .right-icon{
+    padding:18px 20px;
+}
+.left-icon{
+    background-color: #39372d;
+}
+.right-icon{
+    background-color: #a08f36;;
+
+}
+.fa-solid{
+    font-size:30px;
+    cursor: pointer;
+}
